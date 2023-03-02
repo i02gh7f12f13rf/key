@@ -1,1 +1,3 @@
-"optic"
+local tableofkeys = {
+                        --Free Keys
+                        "optic",
