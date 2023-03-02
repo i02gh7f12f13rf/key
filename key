@@ -1,3 +1,31 @@
-local tableofkeys = {
+                    local a = game.PlaceId
+                    TextBox.PlaceholderText = "Key Here"
+
+                    local tableofkeys = {
                         --Free Keys
                         "optic",
+
+                        --Boosters Key
+                        "",
+
+                        --Dev Key
+
+                        "",
+                        "",
+                        ""
+
+                    }
+
+                    --
+                    local boosterskeys = {
+                        "",
+                        "",
+                        ""
+
+                    }
+                    
+                    local whitelistedusers = {
+                        0, --Booster Profile ID
+    
+                    }
+                    
