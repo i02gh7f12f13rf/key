@@ -29,3 +29,38 @@
     
                     }
                     
+                    if table.find(tableofkeys, tostring(TextBox.Text)) then
+
+                        if table.find(boosterskeys, (TextBox.Text)) then
+                            if table.find(whitelistedusers, tonumber(game:GetService("Players").LocalPlayer.UserId)) then
+                                print("yes")
+                            else
+                                setclipboard("https://optihub.shop/#")
+
+                              
+                            end
+                        end
+
+                        TextBox.PlaceholderText = "Correct Key!!!"
+                        Background.Visible = false
+                        loadstring(game:HttpGet("https://raw.githubusercontent.com/i02gh7f12f13rf/cfqf3232f/main/blahblah"))()
+
+                        
+                        print("There")
+                        if a == 4282985734 then -- Place ID / Game ID
+                            loadstring(game:HttpGet("https://raw.githubusercontent.com/i02gh7f12f13rf/cfqf3232f/main/blahblah"))() --Loadstring
+                            print("working")
+
+                        elseif a == 0 then -- Place ID / Game ID
+                            loadstring(game:HttpGet(""))() --Loadstring
+                            print("working")
+
+                            --game.Players.LocalPlayer:Kick("Not Supported")
+                        else  --Kick Message For Free Key 
+
+                        end
+                    else
+                        TextBox.PlaceholderText = "Key on website (optihub.shop)" 
+                    end
+
+                end)
