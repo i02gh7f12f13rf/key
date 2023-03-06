@@ -67,6 +67,7 @@ for i, v in pairs(plrGui:GetChildren()) do
                     local tableofkeys = {
                         --Free Keys
                         "#optihub",
+                        "dumbskid",
 
                         --Boosters Key
                         "dumbskid",
