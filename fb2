@@ -69,7 +69,7 @@ for i, v in pairs(plrGui:GetChildren()) do
                         "#optihub",
 
                         --Boosters Key
-                        "",
+                        "dumbskid",
 
                         --Dev Key
 
