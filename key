@@ -66,7 +66,7 @@ for i, v in pairs(plrGui:GetChildren()) do
 
                     local tableofkeys = {
                         --Free Keys
-                        "thursday",
+                        "friday",
 
                         --Boosters Key
                         "867577567567",
