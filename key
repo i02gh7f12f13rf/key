@@ -17,7 +17,7 @@ if SavedKey then
 end
 
 local SubmitButton = KeyWindow:AddButton("Submit", UDim2.new(0.1, 0, 0.65, 0), function()
-    if KeyBox.Text == "Optihub" then
+    if KeyBox.Text == "Optic" then
         if RememberToggle.GetState() then
             Library:SaveKey(KeyPath, FileName, KeyBox.Text)
         end
